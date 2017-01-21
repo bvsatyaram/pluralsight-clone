@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "babel-node tools/startMessage.js",
     "start": "babel-node tools/srcServer.js"
   },
   "repository": {
