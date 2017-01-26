@@ -1,0 +1,33 @@
+.navbar-default {
+  background-color: #040404;
+  border-color: #040404;
+  border-radius: 0;
+}
+
+.navbar-default a.navbar-brand {
+  color: #ff7b39;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.navbar-default a.navbar-brand:hover {
+  color: #ff7b39;
+  opacity: 0.7;
+}
+
+.navbar-default ul.navbar-nav li a {
+  color: #ffffff;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.navbar-default ul.navbar-nav li a:hover {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.navbar-default ul.navbar-nav li a.active,
+.navbar-default ul.navbar-nav li a:active,
+.navbar-default ul.navbar-nav li a:focus {
+  color: #ff7b39;
+}
